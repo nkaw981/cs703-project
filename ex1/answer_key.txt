@@ -1,0 +1,29 @@
+Case 1: A light requires two switches, Switch A and B, to be flipped in order for it to be on. Both switches start unflipped. I flip the switches in the following order: A, B. Is the light on?
+Answer: Yes
+
+Case 2: A light requires two switches, Switch A and B, to be flipped in order for it to be on. Both switches start unflipped. I flip the switches in the following order: B. Is the light on?
+Answer: No
+
+Case 3: A light requires two switches, Switch A and B, to be flipped in order for it to be on. Both switches start unflipped. I flip the switches in the following order: A, B, B. Is the light on?
+Answer: No
+
+Case 4: A light requires two switches, Switch A and B, to be flipped in order for it to be on. Both switches start unflipped. I flip the switches in the following order: B, A, A, A. Is the light on? Answer: Yes
+
+Case 5: A light requires two switches, Switch A and B, to be flipped in order for it to be on. Both switches start unflipped. I flip the switches in the following order: A, B, B, B, B, A. Is the light on?
+Answer: No
+
+Case 6: A light requires three switches, Switch A, B, and C to be flipped in order for it to be on. All three switches start unflipped. I flip the switches in the following order: C, A. Is the light on?
+Answer: No
+
+Case 7: A light requires three switches, Switch A, B, and C to be flipped in order for it to be on. All three switches start unflipped. I flip the switches in the following order: A, C, B. Is the light on?
+Answer: Yes
+
+Case 8: A light requires three switches, Switch A, B, and C to be flipped in order for it to be on. All three switches start unflipped. I flip the switches in the following order: C, A, A, B, C, A, B. Is the light on?
+Answer: No
+
+Case 9: A light requires three switches, Switch A, B, and C to be flipped in order for it to be on. All three switches start unflipped. I flip the switches in the following order: B, A, B, B, C, A, C, A, C. Is the light on?
+Answer: Yes
+
+Case 10: A light requires three switches, Switch A, B, and C to be flipped in order for it to be on. All three switches start unflipped. I flip the switches in the following order: B, A, B, C, A, A, C. Is the light on?
+Answer: No
+
