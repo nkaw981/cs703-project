@@ -1,0 +1,27 @@
+>>> A light requires two switches, Switch A and B, to be flipped in order for it to be on. Both switches start unflipped. I flip the switches in the following order: A, B, B, B, B, A. Is the light on?
+To determine if the light is on, let's analyze the switch flipping sequence:
+
+1. Initial state: Switches are flipped off.
+2. You flip Switch A (A): Now Switch A is flipped on, but Switch B remains flipped off.
+3. You flip Switch B (B): Now both Switch A and Switch B are flipped on.
+4. You flip Switch B again (B): Since the light already has two switches flipped, flipping Switch B again will have no effect, as it's not a toggle action for the second switch. The state remains 
+unchanged.
+5. You flip Switch B once more (B): Same as before, this won't change anything because you've already reached the maximum number of flips required to turn on the light with two switches being 
+flipped.
+6. You flip Switch A again (A): Since both switches are already flipped on from previous steps, this final action also has no effect.
+
+The correct sequence for flipping switches should be:
+
+1. Flip both Switches at once
+2. If they're not already on
+
+However, in the original question, you only provided a single switch flip to start the process (flipping A). This means that after the initial flip of Switch A, the rest of your flips were 
+unnecessary and wouldn't have changed the light's state.
+
+The correct way to turn it on would be:
+
+1. Initially unflipped switches.
+2. Flip both Switches at once or any single switch if only one is required for a specific device.
+
+Based solely on the original instructions, you've completed the actions but did not achieve the desired outcome of flipping the light on with two separate flips and then no additional flips were 
+needed to finish it off.

@@ -1,0 +1,21 @@
+>>> A light requires two switches, Switch A and B, to be flipped in order for it to be on. Both switches start unflipped. I flip the switches in the following order: B, A, A, A. Is the light on?
+Let's analyze the sequence of switch flips:
+
+1. You flip Switch B.
+2. You flip Switch A.
+3. You flip Switch A again (which is not necessary, as it was already flipped).
+4. You flip Switch A once more.
+
+Since Switch B is now flipped, it can be on its own if there's a way for the light to work with just one switch, but that's not specified. However, we know that both switches need to be flipped 
+together in order to turn the light on.
+
+Let's assume that there's only one configuration where both switches A and B are flipped simultaneously (e.g., a specific setting or combination). 
+
+If this is true, then none of your flip sequences meet this condition.
+
+However, it might also be possible that the light requires both Switch A and B to be in a different state. For instance, if the light turns on when either one of them is flipped while the other 
+switch is already flipped, or there's an additional third switch.
+
+We can only determine for sure whether the light is on by knowing more about how it works or what configuration makes it turn on.
+
+So, unfortunately, we cannot be certain that the light will turn on with your specific sequence.

@@ -1,0 +1,11 @@
+>>> A light requires three switches, Switch A, B, and C to be flipped in order for it to be on. All three switches start unflipped. I flip the switches in the following order: C, A. Is the light on?
+Let's analyze the situation.
+
+Initially, all three switches are unflipped (i.e., off).
+
+You flip switch C first. This means it is now flipped and, according to the rules, this doesn't change the state of the other two switches.
+
+Next, you flip switch A. Now, since switch C is flipped and switch A was also previously flipped by the previous step for a short period (even if only briefly), we need to find out what happens 
+next with these two switches in order to see how many times they are flipped.
+
+Switches A and C are both flipped now, which makes them both off.

@@ -1,0 +1,8 @@
+>>> A light requires two switches, Switch A and B, to be flipped in order for it to be on. Both switches start unflipped. I flip the switches in the following order: A, B, B. Is the light on?
+Let's analyze the sequence of switch flips:
+
+1. You initially have both switches in the off position.
+2. Flip Switch A: Now Switch A is in the on position and Switch B is still in the off position.
+3. Flip Switch B: Now Switch B is in the on position, but Switch A is still in the on position.
+
+Since there are two switches that need to be flipped (Switches A and B) for the light to be on, but only one of them (Switch B) has been flipped in this sequence, the light will not be on.

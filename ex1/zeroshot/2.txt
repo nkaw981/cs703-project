@@ -1,0 +1,14 @@
+>>> A light requires two switches, Switch A and B, to be flipped in order for it to be on. Both switches start unflipped. I flip the switches in the following order: B. Is the light on?
+To determine if the light is on, let's analyze the sequence of switch flips:
+
+1. You initially flip Switch A.
+2. Then, you flip Switch B.
+
+Since both switches must be flipped to turn the light on and they are flipped in this order (B first), it means that at least one of them is flipped before the other. However, we don't know which 
+one was flipped first, as there's no indication that A was flipped first or last.
+
+But, since B comes after A and both must be flipped for the light to turn on, it's possible that when you flip B, Switch A (which was already flipped initially) is still in its unflipped state. 
+This means that even with B flipped, A wasn't fully flipped yet because it was done before.
+
+So, despite flipping both switches, according to the sequence given, we cannot say for certain if the light will be on or not based solely on this flip order alone without knowing which switch A 
+was flipped first and in what direction of flipping (first from unflipped then B).

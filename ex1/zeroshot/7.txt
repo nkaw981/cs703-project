@@ -1,0 +1,16 @@
+>>> A light requires three switches, Switch A, B, and C to be flipped in order for it to be on. All three switches start unflipped. I flip the switches in the following order: A, C, B. Is the light on?
+Let's analyze the sequence of switch flips:
+
+1. You flip switch A, which is now on.
+2. You flip switch C, which was previously off. Now, it's also on.
+3. You flip switch B, but since switches A and C are already on, their states don't affect each other.
+
+Since switches A and C were flipped after switch B, they will be considered as being "on" even if switch B is flipped off. This means that the light will not turn on until both A and C are flipped 
+again, or an additional condition is met (not specified in this scenario).
+
+However, considering only the given sequence of switches, we can conclude that:
+
+- The light turns on when you flip switch A.
+- Since switch A is already "on" from the previous step, it doesn't matter if you flip switch B now.
+
+So, to answer your question: yes, the light will be on after you flip switch A.

@@ -1,0 +1,19 @@
+>>> A light requires three switches, Switch A, B, and C to be flipped in order for it to be on. All three switches start unflipped. I flip the switches in the following order: C, A, A, B, C, A, B. Is th
+... e light on?
+To determine if the light is on, we need to analyze the sequence of switch flips:
+
+1. Initially, all switches are flipped down.
+2. You flip Switch C (now it's flipped up).
+3. Then, you flip Switch A (now it's also flipped up).
+4. Next, you flip Switch A again (which doesn't change anything since it's already flipped up).
+5. After that, you flip Switch B (now it's flipped up).
+6. You then flip Switch C again (which is now flipped down).
+7. Finally, you flip Switch A once more and then Switch B.
+
+The final state of the switches is:
+
+- Switch A: Flipped up
+- Switch B: Flipped up
+- Switch C: Flipped down
+
+Since both Switch A and Switch B are flipped up, the light is on.

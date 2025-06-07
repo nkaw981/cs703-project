@@ -1,0 +1,16 @@
+>>> Question: A light requires two switches, Switch X and Y, to be flipped in order for it to be on. Both switches start unflipped. I flip the switches in the following order: X, X, Y. Is the light on?
+... Answer: We start with both switches being unflipped. Switch X is flipped, so it is now flipped. Then we flip switch X, but because it has been flipped, it is now unflipped. Switch Y is flipped, so i
+... t is now flipped. At the end of the sequence, switch Y is flipped, but switch X has not been flipped yet, therefore the light is off.
+... A light requires three switches, Switch A, B, and C to be flipped in order for it to be on. All three switches start unflipped. I flip the switches in the following order: B, A, B, C, A, A, C. Is th
+... e light on?
+... 
+Let's analyze the sequence of switch flips:
+
+1. Switch B is flipped, so it is now flipped.
+2. Switch A is flipped, but since Switch B was just flipped, and there are three switches that need to be flipped in order for the light to be on, Switch A's flip doesn't complete the sequence 
+yet. However, Switch A is flipped again (assuming the second A flip), which will actually complete the sequence.
+3. Since both A and B were already flipped before this point, they don't matter as they are now part of the first two flips. But, because we only need one more switch flipped than there are 
+switches to be on for the light to work (two in this case) - A was flipped twice but it's flip is not completed yet because of a different rule with X being flipped twice before Y.
+4. Switch C is flipped, so it is now flipped.
+
+Since we have two flips and only one more required switch (A) is not fully flipped, therefore the light is off.

@@ -1,0 +1,14 @@
+>>> Question: A light requires two switches, Switch X and Y, to be flipped in order for it to be on. Both switches start unflipped. I flip the switches in the following order: X, X, Y. Is the light on?
+... Answer: We start with both switches being unflipped. Switch X is flipped, so it is now flipped. Then we flip switch X, but because it has been flipped, it is now unflipped. Switch Y is flipped, so i
+... t is now flipped. At the end of the sequence, switch Y is flipped, but switch X has not been flipped yet, therefore the light is off.
+... Question: A light requires two switches, Switch X and Y, to be flipped in order for it to be on. Both switches start unflipped. I flip the switches in the following order: X, Y. Is the light on?
+... Answer: We start with both switches being unflipped. Switch X is flipped, so it is now flipped. Switch Y is flipped, so it is now flipped. At the end of the sequence, both switch X and Y has been fl
+... ipped, therefore the light is on.
+... A light requires two switches, Switch A and B, to be flipped in order for it to be on. Both switches start unflipped. I flip the switches in the following order: B. Is the light on?
+... 
+Answer: We start with both switches being unflipped. Since switch B is flipped, it is now flipped.
+
+However, flipping switch B does not trigger the sequence of flipping both switches A and B. Therefore, at the end of the sequence, neither switch A nor switch B has been flipped in order to turn 
+the light on.
+
+So, despite flipper B being flipped, switch A remains unflipped and the light is off.

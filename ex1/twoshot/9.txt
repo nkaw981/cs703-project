@@ -1,0 +1,21 @@
+>>> Question: A light requires two switches, Switch X and Y, to be flipped in order for it to be on. Both switches start unflipped. I flip the switches in the following order: X, X, Y. Is the light on?
+... Answer: We start with both switches being unflipped. Switch X is flipped, so it is now flipped. Then we flip switch X, but because it has been flipped, it is now unflipped. Switch Y is flipped, so i
+... t is now flipped. At the end of the sequence, switch Y is flipped, but switch X has not been flipped yet, therefore the light is off.
+... Question: A light requires two switches, Switch X and Y, to be flipped in order for it to be on. Both switches start unflipped. I flip the switches in the following order: X, Y. Is the light on?
+... Answer: We start with both switches being unflipped. Switch X is flipped, so it is now flipped. Switch Y is flipped, so it is now flipped. At the end of the sequence, both switch X and Y has been fl
+... ipped, therefore the light is on.
+... A light requires three switches, Switch A, B, and C to be flipped in order for it to be on. All three switches start unflipped. I flip the switches in the following order: B, A, B, B, C, A, C, A, C.
+...  Is the light on?
+... 
+To solve this problem, let's analyze the sequence of flips:
+
+1. Switch B is flipped.
+2. Switch A is flipped (but since switch B was just flipped, it will be unflipped again).
+3. Switch B is flipped again, so it remains flipped.
+4. Switch B is flipped again, so it remains flipped.
+5. Switch C is flipped.
+6. Switch A is flipped (but since switch B and then switch C were just flipped, switch A has been unflipped twice already). 
+   Since A was flipped after B and before C, but also before the last flip of A, then A must have been in both states at that time, so it remains flipped.
+7. Switch C is flipped again (but switch A will be flipped when it is flipped for the third time, since it had a previously unflipped state), 
+8. Switch C is flipped again, so it remains flipped.
+9. Switch A is flipped (and because we already know from earlier that A was in both states at different times, then at this point A also has both states).

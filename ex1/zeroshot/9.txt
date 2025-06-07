@@ -1,0 +1,22 @@
+>>> A light requires three switches, Switch A, B, and C to be flipped in order for it to be on. All three switches start unflipped. I flip the switches in the following order: B, A, B, B, C, A, C, A, C.
+...  Is the light on?
+To determine if the light is on, we need to analyze the switch flips.
+
+1. Initial state: All three switches are unflipped (off).
+2. First flip: Switch B
+3. Second flip: Switch A
+4. Third flip: Switch B again
+5. Fourth flip: Switch B again
+6. Fifth flip: Switch C
+7. Sixth flip: Switch A
+8. Seventh flip: Switch C
+9. Eighth flip: Switch A
+
+Now, let's analyze the switches:
+
+- Switch A is flipped three times (flipped on/off/ flipped), which means it has an odd number of flips, so it ends up in its original state, unflipped.
+- Switch B is flipped three times (on/off/on), also resulting in an even number of flips, so it ends up in the opposite of its initial state. However, since there's no "off" switch to flip back 
+into, it remains flipped.
+- Switch C is flipped three times (flipped on/ off/flipped), which means it also ends up in its original state.
+
+Since we can't "flip a switch back", Switch B will remain flipped, and the light will be on.

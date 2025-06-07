@@ -1,0 +1,10 @@
+>>> A light requires two switches, Switch A and B, to be flipped in order for it to be on. Both switches start unflipped. I flip the switches in the following order: A, B. Is the light on?
+Let's analyze the situation step by step:
+
+1. Initially, both switches are flipped down (unflipped).
+2. You flip Switch A first.
+3. Since Switch A is flipped, it will now be flipped up (on) and Switch B will still be flipped down.
+
+Now, to make the light on, both switches need to be flipped up. However, since Switch A is already flipped up, you only need to flip Switch B up.
+
+So, in this case, the answer is yes, the light is on after flipping Switch A first.

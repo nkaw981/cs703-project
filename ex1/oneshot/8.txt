@@ -1,0 +1,22 @@
+>>> Question: A light requires two switches, Switch X and Y, to be flipped in order for it to be on. Both switches start unflipped. I flip the switches in the following order: X, X, Y. Is the light on?
+... Answer: We start with both switches being unflipped. Switch X is flipped, so it is now flipped. Then we flip switch X, but because it has been flipped, it is now unflipped. Switch Y is flipped, so i
+... t is now flipped. At the end of the sequence, switch Y is flipped, but switch X has not been flipped yet, therefore the light is off.
+... A light requires three switches, Switch A, B, and C to be flipped in order for it to be on. All three switches start unflipped. I flip the switches in the following order: C, A, A, B, C, A, B. Is th
+... e light on?
+... 
+Let's analyze the sequence of switch flips:
+
+1. Initially, all three switches are unflipped.
+2. Switch C is flipped, so it is now flipped.
+3. Switch A is flipped, but since switch C has already been flipped, switch A can be flipped without switching C back to its original state. So, switch A is now flipped.
+4. Switch A is flipped again, which does not affect the previous flip of switch C or the current state of switch B. So, switch A remains flipped.
+5. Switch B is flipped, so it is now flipped.
+6. Switch C is flipped again, but since switch B has already been flipped, we need to check if switch A has also been flipped in this sequence. In this case, yes, switch A was flipped earlier 
+(step 3). So, switching C back on will not affect the state of switch A.
+7. Switch A is flipped again, which does not change its previous state from step 6.
+
+After these steps, both switches C and B are flipped, but switch A remains flipped in this order. Since all three switches have been flipped according to the required sequence, the light should be 
+on.
+
+Note that if we had started with a different initial condition (e.g., switch A is flipped first), the analysis would be different. However, given the current starting conditions and the flip 
+sequence provided, the light should indeed be on at the end of the sequence.

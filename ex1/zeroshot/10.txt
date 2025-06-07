@@ -1,0 +1,10 @@
+>>> A light requires three switches, Switch A, B, and C to be flipped in order for it to be on. All three switches start unflipped. I flip the switches in the following order: B, A, B, C, A, A, C. Is th
+... e light on?
+Let's analyze the switch-flipping sequence:
+
+1. Initial state: Switches A and B are unflipped, while Switch C is flipped.
+2. Flip Switch B (2nd): Switch B is now flipped. State: Switches A, B, and C have one switch each that is flipped or not flipped.
+3. Flip Switch A (4th): Switch A is now flipped. State: All three switches are now flipped.
+4. Since all switches are flipped, the light will be on.
+
+So, yes, the light is on after you flip the switches in the sequence B-A-B-C-A-A-C.
